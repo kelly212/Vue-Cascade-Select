@@ -29,8 +29,14 @@ Você pode usar o componente da seguinte maneira:
 ```vue
 
 <template>
-          <v-cascade-select name="pais" id="pais" label="Selecione" class="inp inp_upper" :loading="false"
-                            @update="(v)=>{pais=v}" :items="paises" :model="pais" item-title="descricao"
+          <v-cascade-select name="pais"
+                            :model="pais"
+                            id="pais"
+                            label="Selecione"
+                            :loading="false"
+                            @update="(v)=>{pais=v}"
+                            :lista="paises"
+                            item-title="descricao"
                             item-value="abreviacao">
           </v-cascade-select>
 </template>
@@ -55,14 +61,6 @@ export default defineComponent({
       { abreviacao: 'FR', descricao: 'França' },
       { abreviacao: 'IN', descricao: 'Índia' },
       { abreviacao: 'IT', descricao: 'Itália' },
-      { abreviacao: 'GB', descricao: 'Reino Unido' },
-      { abreviacao: 'RU', descricao: 'Rússia' },
-      { abreviacao: 'AU', descricao: 'Austrália' },
-      { abreviacao: 'ZA', descricao: 'África do Sul' },
-      { abreviacao: 'ES', descricao: 'Espanha' },
-      { abreviacao: 'PT', descricao: 'Portugal' },
-      { abreviacao: 'KR', descricao: 'Coreia do Sul' },
-      { abreviacao: 'SA', descricao: 'Arábia Saudita' },
       { abreviacao: 'SE', descricao: 'Suécia' }
     ]
   }),
@@ -71,9 +69,6 @@ export default defineComponent({
   }
 });
 </script>
-
-
-
 
 ```
 #### Props
