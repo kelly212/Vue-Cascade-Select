@@ -1,3 +1,3 @@
-import VCurrencyText from './components/VCascadeSelect';
+import VCascadeSelect from './components/VCascadeSelect';
 
-export default VCurrencyText;
+export default VCascadeSelect;
