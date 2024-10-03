@@ -1,5 +1,5 @@
 # Vue-Cascade-Select
- Um componente de formulário para selecionar um valor de uma estrutura aninhada de opções.
+ Um componente de formulário para selecionar um valor de uma lista de opções.
 O componente é compatível com Vuetify 3.x.
 ## Install 
 #### NPM 
