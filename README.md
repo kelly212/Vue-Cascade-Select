@@ -1,6 +1,4 @@
-![Logo](public/img.jpg)
-
-<img src="public/img.jpg" alt="Exemplo de uso" width="200"/>
+![Logo](public/movie.gif)
 
 # Vue-Cascade-Select
  Um componente de formulário para selecionar um valor de uma lista de opções.

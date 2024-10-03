@@ -1,20 +1,14 @@
 <template>
   <div>
     <v-container>
-      <v-row>
-        <v-col cols="12">
-          <!--<v-cascade-select name="proprietario" -->
-                            <!--id="proprietario"-->
-                            <!--:loading="false"-->
-                            <!--label="Proprietario" -->
-                            <!--:model="proprietario" -->
-                            <!--item-title="nome" -->
-                            <!--item-value="participante_id"-->
-                            <!--:lista="proprietarios"-->
-                            <!--@update="(v)=>{proprietario=v}"-->
-          <!--&gt;-->
-          <!--</v-cascade-select>-->
-          
+      <br>
+      <div style="text-align: center">
+        <h1>Vue Cascade Select</h1>
+        <br>
+      </div>
+      <v-row justify="center">
+        <v-col cols="6">
+         
           <v-cascade-select name="pais"
                             :model="pais"
                             id="pais"
