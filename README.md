@@ -1,3 +1,7 @@
+![Logo](public/img.jpg)
+
+<img src="/img.jpg" alt="Exemplo de uso" width="200"/>
+
 # Vue-Cascade-Select
  Um componente de formulário para selecionar um valor de uma lista de opções.
 O componente é compatível com Vuetify 3.x.
