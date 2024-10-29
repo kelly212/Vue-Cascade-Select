@@ -19,7 +19,7 @@
 													:menu-props="{closeOnContentClick: false}">
 						<template v-slot:prepend-item>
 									<div style="padding: 0px 10px;">
-												<v-text-field data-lpignore="true" class="inp" density="compact" v-model="search" label="Pesquisar" hide-details
+												<v-text-field data-lpignore="true" class="inp_search" density="compact" v-model="search" label="Pesquisar" hide-details
 																										clear-icon="mdi-close" clearable prepend-inner-icon="mdi-magnify"
 																										:placeholder="placeholder" single-line></v-text-field>
 									</div>
@@ -106,7 +106,7 @@
    }
 </script>
 <style lang="scss">
-			.inp {
+			.inp_search {
 						.v-label {
 									font-size: 13px !important;
 						}
@@ -119,6 +119,10 @@
 									font-size: 13px !important;
 									min-height: 20px !important;
 						}
+			}
+			.small-list-item{
+						font-size: 10px!important;
+						min-height: 30px !important;
 			}
 
 </style>
