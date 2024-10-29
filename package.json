@@ -1,6 +1,6 @@
 {
   "name": "v-cascade-select",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Um componente de formulário para selecionar um valor de uma estrutura aninhada de opções.",
   "author": "Kelly",
   "main": "src/index.js",
